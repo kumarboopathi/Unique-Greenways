@@ -1,0 +1,110 @@
+.mainProductsection {
+    width: 100%;
+    background: #FFFFFF;
+    h2 {
+        color: #ECA729;
+        top: 20px;
+        left: 654px;
+        font-family: Lora;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 38px;
+        text-align: center;
+        padding: 40px 0;
+    }
+    .productsection {
+        display: flex;
+        align-items: center;
+    }
+    .productImage {
+        background: url(/image/Rectangle\ 20.png);
+        margin: 0 40px;
+        width: 280px;
+        height: 420px;
+        .productOffer {
+            top: 60px;
+            right: 144px;
+            .off {
+                button {
+                    background: none;
+                    margin: 20px 0;
+                    font-family: Lora;
+                    padding: 5px 7px;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 31px;
+                    border: 2px solid #FFFFFF;
+                    border-radius: 50px;
+                    color: #FFFFFF;
+                }
+                text-align: center;
+                h3 {
+                    text-align: center;
+                    font-family: Lora;
+                    font-size: 30px;
+                    font-weight: 700;
+                    line-height: 38px;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+    .mainItems {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        width: 70%;
+        .items {
+            border: 1px solid #EEEEEE;
+            border-radius: 8px;
+            background: #FFFFFF;
+            width: 280px;
+            text-align: center;
+            box-shadow: -4px 4px 0px 4px rgba(233, 233, 233, 0.2);
+            .price {
+                text-align: center;
+                padding-top: 16px;
+                div {
+                    button {
+                        width: 90%;
+                        color: #FFFFFF;
+                        background: #759264;
+                        border-radius: 50px;
+                        outline: auto;
+                        padding: 10px 60px;
+                        margin: 30px 0 17px 0;
+                    }
+                }
+                div {
+                    input {
+                        background: #FFFFFF;
+                        border: 1px solid #C4C4C4;
+                        border-radius: 50px;
+                        width: 110px;
+                        padding: 8px 50px;
+                        text-align: center;
+                    }
+                }
+                span {
+                    font-family: Lora;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    color: #575757;
+                    &:nth-child(2) {
+                        text-decoration: line-through;
+                        display: inline-block;
+                        padding: 16px 0;
+                    }
+                }
+                p {
+                    font-family: Lora;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    color: #575757;
+                }
+            }
+        }
+    }
+}
